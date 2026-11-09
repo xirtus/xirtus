@@ -1,0 +1,20 @@
+# --- Standard OS / Editor / Secrets / Build Ignores ---
+.DS_Store
+._*
+Thumbs.db
+*.swp
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+node_modules/
+dist/
+.vite/
+test-results/
+playwright-report/
+*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
